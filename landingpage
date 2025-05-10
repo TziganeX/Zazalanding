@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZaZa Agency | Elite Digital Management</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #0e0e0e;
+      color: #ffffff;
+    }
+    header {
+      background-color: #111;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 300;
+      color: #d4af37;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .highlight {
+      color: #d4af37;
+      font-weight: bold;
+    }
+    .cta {
+      display: inline-block;
+      background-color: #d4af37;
+      color: #000;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ZaZa Agency</h1>
+    <h2>Gestão de Imagem & Performance para o Setor de Luxo</h2>
+  </header>
+  
+  <section>
+    <p>Somos uma agência <span class="highlight">exclusiva</span> para criadores de conteúdo, personal trainers, coaches e empresários que atuam no topo do mercado digital. Ajudamos profissionais a multiplicar seus resultados através de <span class="highlight">estratégias personalizadas</span>, branding de luxo e tecnologia de ponta.</p>
+    
+    <p>Acreditamos que <span class="highlight">autoridade, sofisticação e performance</span> são os pilares de uma marca que atrai, converte e cresce. Trabalhamos apenas com perfis selecionados para garantir o máximo impacto em cada parceria.</p>
+
+    <p>Se você quer <span class="highlight">escala, presença e lucro</span> num mercado digital competitivo, preencha o formulário e descubra se o seu perfil se encaixa no nosso padrão de excelência.</p>
+
+    <a href="#formulario" class="cta">Solicitar Convite</a>
+  </section>
+
+  <section id="formulario">
+    <h2>Candidate-se para entrar no universo ZaZa</h2>
+    <form>
+      <p><input type="text" placeholder="Nome completo" required></p>
+      <p><input type="email" placeholder="Email profissional" required></p>
+      <p><textarea placeholder="Fale brevemente sobre sua atuação e objetivos"></textarea></p>
+      <p><button type="submit">Enviar candidatura</button></p>
+    </form>
+  </section>
+</body>
+</html>
